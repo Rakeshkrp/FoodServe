@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>FoodServe</title>
+</head>
+<body>
+
+    <!--navbar start-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-success">
+        <div class="container">
+          <a class="navbar-brand text-white fw-bold fs-1" href="#">Food<span class="text-warning fst-italic">Serve</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active text-white fw-bold fs-5" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white fw-bold fs-5" href="#favorites">Favorites</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white fw-bold fs-5" href="#products" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Items
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item text-secondary fw-bold" href="#">Non-Veg Dishes</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item text-secondary fw-bold" href="#">Veg Dishes</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item text-secondary fw-bold" href="#">Sea Food</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item text-secondary fw-bold" href="#">Beverages</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white fw-bold fs-5" href="#price">Prices</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Enter Item" aria-label="Search">
+              <button class="btn btn-outline-warning text-white fw-bold"  type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+       <!--Navbar ends-->
+
+       <!----Home Section Start-->
+             <section id="home" class="home">
+                 <div class="container">
+                     <div class="row">
+                     <h1 class="text-white text-center">Order Your <span class="text-decoration-underline text-warning">Favorite </span>Food Online.</h1>
+                     <h3 class="text-white text-center">Attractive Discounts & Offers on Your Favorite Dishes.<h3>
+                         <p class="lead text-white text-center mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                             Reprehenderit maiores aut quo maxime quaerat explicabo error molestiae, incidunt aperiam aspernatur. Corrupti beatae adipisci fugiat quos dolores hic aut quam vero. 
+                             Ipsam necessitatibus vel vero quis nostrum, suscipit laboriosam quo incidunt sunt harum accusamus fugit explicabo aut nam aliquam ea deserunt.</p>
+                    </div>
+                 </div>
+             </section>
+
+       <!--Home Section Ends-->
+
+       <!---Favorites Section start-->
+
+       <section id="favorites" class="favorites">
+           <div class="container">
+               <h1 class="text-center text-secondary fw-bold text-decoration-underline">Our Favorites</h1>
+             <div class="row" id="favorites-row">
+                 <div class="col-lg-3 col-sm-12">
+                    <div class="card p-2 text-center">
+                        <img src="./img/chickenpic.png" class="card-img-top img-fluid" alt="chicken">
+                        <div class="card-body">
+                          <h5 class="card-title">Chicken Dishes</h5>
+                          <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-warning">Order Now</a>
+                        </div>
+                      </div>
+                 </div>
+
+                 <div class="col-lg-3 col-sm-12">
+                    <div class="card p-2 text-center">
+                        <img src="./img/beefpic.png" class="card-img-top img-fluid" alt="beef">
+                        <div class="card-body">
+                          <h5 class="card-title">Beef Dishes</h5>
+                          <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-warning">Order Now</a>
+                        </div>
+                      </div>
+                 </div>
+
+                 <div class="col-lg-3 col-sm-12">
+                    <div class="card p-2 text-center">
+                        <img src="./img/fishpic.png" class="card-img-top img-fluid" alt="fish">
+                        <div class="card-body">
+                          <h5 class="card-title">Fish Dishes</h5>
+                          <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-warning">Order Now</a>
+                        </div>
+                      </div>
+                 </div>
+
+                 <div class="col-lg-3 col-sm-12">
+                    <div class="card p-2 text-center">
+                        <img src="./img/vegpic.png" class="card-img-top img-fluid" alt="veg">
+                        <div class="card-body">
+                          <h5 class="card-title">Veg Dishes</h5>
+                          <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-warning">Order Now</a>
+                        </div>
+                      </div>
+                 </div>
+             </div>
+           </div>
+       </section>
+
+       <!---Favorites Section end-->
+
+       <!---Price Section Start-->
+      <section id="price" class="price">
+
+        <div class="container">
+            <h1 class="text-center text-secondary fw-bold text-decoration-underline">Prices & Discounts</h1>
+            <div class="row" id="price-row">
+                <div class="col-lg-6 col-sm-12">
+                    <h2>Discount on Chicken Dishes.</h2>
+                    <h5>Avail Excellent Offers & Discounts on Chicken Dishes.</h5>
+                    <p class="lead text-secondary fw-bold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Quibusdam, omnis excepturi sed harum nesciunt quia, consectetur deserunt, earum ad dolorum veritatis eius maxime veniam delectus.</p>
+                    <button class="btn btn-warning">Order Now @ Rs. 99/-</button>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <img src="./img/chickenpic.png" alt="chicken" class="img-fluid img-thumbnail">
+                </div>
+            </div>
+
+            <div class="row flex-row-reverse" id="price-row">
+                <div class="col-lg-6 col-sm-12">
+                    <h2>Discount on Beef Dishes.</h2>
+                    <h5>Avail Excellent Offers & Discounts on Beef Dishes.</h5>
+                    <p class="lead text-secondary fw-bold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Quibusdam, omnis excepturi sed harum nesciunt quia, consectetur deserunt, earum ad dolorum veritatis eius maxime veniam delectus.</p>
+                    <button class="btn btn-warning">Order Now @ Rs. 129/-</button>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <img src="./img/beefpic.png" alt="chicken" class="img-fluid img-thumbnail">
+                </div>
+            </div>
+
+            <div class="row" id="price-row">
+                <div class="col-lg-6 col-sm-12">
+                    <h2>Discount on Fish Dishes.</h2>
+                    <h5>Avail Excellent Offers & Discounts on Fish Dishes.</h5>
+                    <p class="lead text-secondary fw-bold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Quibusdam, omnis excepturi sed harum nesciunt quia, consectetur deserunt, earum ad dolorum veritatis eius maxime veniam delectus.</p>
+                    <button class="btn btn-warning">Order Now @ Rs. 149/-</button>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <img src="./img/fishpic.png" alt="chicken" class="img-fluid img-thumbnail">
+                </div>
+            </div>
+
+            <div class="row flex-row-reverse" id="price-row">
+                <div class="col-lg-6 col-sm-12">
+                    <h2>Discount on Veg Dishes.</h2>
+                    <h5>Avail Excellent Offers & Discounts on Veg Dishes.</h5>
+                    <p class="lead text-secondary fw-bold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Quibusdam, omnis excepturi sed harum nesciunt quia, consectetur deserunt, earum ad dolorum veritatis eius maxime veniam delectus.</p>
+                    <button class="btn btn-warning">Order Now @ Rs. 99/-</button>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <img src="./img/vegpic.png" alt="chicken" class="img-fluid img-thumbnail">
+                </div>
+            </div>
+        </div>
+
+      </section>
+
+     <!---Price Section End-->
+
+     <!------contact section start-->
+
+     <section id="contact" class="contact">
+         <div class="container">
+             <h2 class="text-center text-secondary fw-bold text-decoration-underline">Reach To Us</h2>
+             <div class="row">
+                 <div class="col-lg-6 col-sm-12">
+                     <div class="card p-3">
+                         <form>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                              </div>
+
+                              <div class="mb-3">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input type="email" class="form-control" id="phone" placeholder="Enter phone number">
+                              </div>
+                              <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                              </div>
+                         </form>
+                         <div class="d-grid gap-2 col-6 mx-auto">
+                            <button class="btn btn-warning" type="button">Connect With Us</button>
+                            
+                          </div>
+                     </div>
+
+                 </div>
+                 <div class="col-lg-6 col-sm-12">
+                     <div class="card text-center p-2">
+                         <h3>Our Branches</h4>
+                         <p class="lead fw-bold text-secondary">Connaught Place, New Delhi</p>
+                         <p class="lead fw-bold text-secondary">Sea Link Road, Mumbai, Maharashtra</p>
+                         <p class="lead fw-bold text-secondary">Victoria Lane, Kolkotta, W. Bengal</p>
+                         <p class="lead fw-bold text-secondary">Marina Beach Road, Chennai, Tamil Nadu</p>
+                         <p class="lead fw-bold text-secondary">M.G Road, Bengaluru, Karnataka</p>
+                         <p class="lead fw-bold text-secondary">Marine Drive, Cochin, Kerala</p>
+                         <div class="d-grid gap-2 col-6 mx-auto">
+                            <button class="btn btn-warning" type="button">Locate Us</button>
+                                                      </div>
+                        
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </section>
+
+     <!------contact section end-->
+
+     <footer class="bg-success">
+         <h4 class="text-center text-white p-3">Copyright@rakeshkr2021</h4>
+     </footer>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
